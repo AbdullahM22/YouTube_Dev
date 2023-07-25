@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+        <meta name = "viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+    
+    <!--Here the page header, fonts of page, styles of pages are loaded-->
+    <title>YouTube.com</title>
+    <link rel="icon" href="icons/youtube-icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <!--Here the header of the page is created-->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="icons/my-channel.jpg">
+      </div>
+    </header>
+    <!--Here the sidebar of the page is created-->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <a href="https://www.youtube.com/feed/subscriptions">
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+    <!--Here the videos and all the information is loaded-->
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=UrIaQbIK2E4">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">10:34</div>
+          </a>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@BBKiVines">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channels/channel-1.jpg">
+            </div>
+          </a>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=UrIaQbIK2E4">
+              <p class="video-title">
+                BB Ki Vines- | Love Ka Hakkar |
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@BBKiVines">
+              <p class="video-author">
+                BB Ki Vines <img class="blue-tick" src="icons/blue-tick.png">
+              </p>
+            </a>
+              <p class="video-stats">
+                11M views &#183; 5 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Y4V0lt_1mG8">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">1:29:07</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@GanjiSwag">
+                <img class="profile-picture" src="channels/channel-2.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=Y4V0lt_1mG8">
+                <p class="video-title">
+                  Honest Hour with Tabish Hashmi | Junaid Akram's Podcast#137
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@GanjiSwag">
+                <p class="video-author">
+                  Junaid Akram <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                1M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=b7UZ3rMQkTo&t=13s">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+              <div class="video-time">1:58</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@maqboolziauddin8750">
+                <img class="profile-picture" src="channels/channel-3.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=b7UZ3rMQkTo&t=13s">
+              <p class="video-title">
+                maqboolziauddin haute couture BRIDE DUBAI 2014
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@maqboolziauddin8750">
+              <p class="video-author">
+                maqbool ziauddin <img class="blue-tick" src="icons/blue-tick.png">
+              </p>
+            </a>
+              <p class="video-stats">
+                234 views &#183; 8 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ney291VKSJM">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">3:30</div>
+          </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCq8E4b6su6DdP7oNdwaWNlg">
+              <img class="profile-picture" src="channels/channel-4.jpg">
+            </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=ney291VKSJM">
+              <p class="video-title">
+                Left Right | Ali Sethi, Shae Gill, Abdullah Siddiqui & Maanu (Official Music Video)
+              </p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ney291VKSJM">
+              <p class="video-author">
+                Ali Sethi &#9834;
+              </p>
+            </a>
+              <p class="video-stats">
+                1.3M views &#183; 13 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=XGH_xpqt9_k">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+              <div class="video-time">30:22</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mooroosicity">
+              <img class="profile-picture" src="channels/channel-5.jpg">
+            </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=XGH_xpqt9_k">
+              <p class="video-title">
+                Mooroo - Pehli (Full Album)
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@mooroosicity">
+              <p class="video-author">
+                Taimur Salahuddin aka Mooroo <img class="blue-tick" src="icons/blue-tick.png">
+              </p>
+            </a>
+              <p class="video-stats">
+                170K views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bF-2z4uB25M">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+              <div class="video-time">4:07:32</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Faisal.Warraich">
+                <img class="profile-picture" src="channels/channel-6.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=bF-2z4uB25M">
+                <p class="video-title">
+                  FSW Vlogs | Muslim Cold War Season 02 Complete Documentary Film | Faisal Warraich
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Faisal.Warraich">
+                <p class="video-author">
+                  Faisal Warraich <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                166K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gq9LRLx-do0">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+              <div class="video-time">14:22</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@ISPR">
+                <img class="profile-picture" src="channels/channel-7.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=gq9LRLx-do0">
+                <p class="video-title">
+                  Press Release No 48/2023 - 147th PMA Passing Out Parade - 29 Apr 2023 | ISPR
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@ISPR">
+                <p class="video-author">
+                  ISPR Official <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                52K views &#183; 13 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=jFICRFKtAc4">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+              <div class="video-time">5:36</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TEDEd">
+                <img class="profile-picture" src="channels/channel-8.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=jFICRFKtAc4">
+                <p class="video-title">
+                  How did Hitler rise to power? - Alex Gendler and Anthony Hazard
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@TEDEd">
+                <p class="video-author">
+                  TED-Ed <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                9.5M views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gMlf1ELvRzc">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+              <div class="video-time">18:39</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@veritasium">
+                <img class="profile-picture" src="channels/channel-9.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=gMlf1ELvRzc">
+                <p class="video-title">
+                  The Discovery That Transformed Pi
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@veritasium">
+                <p class="video-author">
+                  Veritasium <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                11M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=KQ8HIIot8tQ">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+              <div class="video-time">9:37</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@TechBurner">
+                <img class="profile-picture" src="channels/channel-10.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=KQ8HIIot8tQ">
+                <p class="video-title">
+                  Why Marshall Speakers Are So Expensive?
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@TechBurner">
+                <p class="video-author">
+                  Tech Burner <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                2.3M views &#183; 2 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=IoTL9xZOdP0">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+              <div class="video-time">9:10</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CarryMinati">
+                <img class="profile-picture" src="channels/channel-11.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=IoTL9xZOdP0">
+                <p class="video-title">
+                  MAGGIE KHAO BODY BANAO | CARRYMINATI
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@CarryMinati">
+                <p class="video-author">
+                  CarryMinati <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                29M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=crH7kpjomIk">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+              <div class="video-time">22:54</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@dhruvrathee">
+                <img class="profile-picture" src="channels/channel-12.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=crH7kpjomIk">
+                <p class="video-title">
+                  Why World War 2 Happened? | The Real Reason | Dhruv Rathee
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@dhruvrathee">
+                <p class="video-author">
+                  Dhruv Rathee <img class="blue-tick" src="icons/blue-tick.png">
+                </p>
+              </a>
+              <p class="video-stats">
+                4.4M views &#183; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div> 
+
+      </section>
+    </main>
+  </body>
+</html>

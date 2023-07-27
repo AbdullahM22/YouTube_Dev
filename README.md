@@ -5,7 +5,7 @@ This repository contains the code for the YouTube.com website. It is a simple HT
 ## Table of Contents
 
 - [Description](#description)
-- [Live Demo](https://abdullahmaqbool22.github.io/YouTube_Dev/)
+- [Live Demo](https://abdullahmaqbool22.github.io/YouTube-Clone/)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contributing](#contributing)
@@ -19,7 +19,7 @@ The YouTube.com website is a static web page that imitates the layout and style 
 
 ## Live Demo
 
-You can view a live demo of the YouTube.com website by following this link: [YouTube.com](https://abdullahmaqbool22.github.io/YouTube_Dev/)
+You can view a live demo of the YouTube.com website by following this link: [YouTube.com](https://abdullahmaqbool22.github.io/YouTube-Clone/)
 
 ## Usage
 

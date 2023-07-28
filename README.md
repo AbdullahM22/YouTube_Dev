@@ -34,11 +34,11 @@ There is no installation required for this project. It is a static web page, and
 This project is for demonstrative purposes and is not actively maintained. Therefore, contributions are not accepted at the moment.
 
 ## Content
-- index.html (HTML code).
-- Channels profile pic folder (.jpg file).
-- Icons folder (.jpg, .png, .svg files).
-- Styles folder (CSS code).
-- Thumbnails folder (.webp file)
+- `index.html` (HTML code).
+- `channels` profile pic folder (.jpg file).
+- `icons` folder (.jpg, .png, .svg files).
+- `styles` folder (CSS code).
+- `thumbnails` folder (.webp file)
 
 ## License
 
